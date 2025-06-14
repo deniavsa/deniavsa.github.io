@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    background-color: #f8fafc;
+    color: #334155;
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* Card Styles */
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1e293b;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.section-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #3b82f6;
+}
+
+.card-content {
+    padding: 1.5rem;
+}
+
+.header-card .card-content {
+    padding: 2rem;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.profile-photo {
+    width: 8rem;
+    height: 8rem;
+    /* background: linear-gradient(135deg, #3b82f6, #1d4ed8); */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding-top: 97px;
+}
+
+.user-icon {
+    width: 4rem;
+    height: 4rem;
+    color: white;
+    stroke-width: 1.5;
+}
+
+
+/* .profile-info {
+    width: 83%;
+} */
+
+.profile-info h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+.profile-info h2 {
+    font-size: 1.25rem;
+    color: #64748b;
+    margin-bottom: 1rem;
+}
+
+.profile-info p {
+    color: #64748b;
+    /* max-width: 705px; */
+    line-height: 1.7;
+}
+
+/* Separator */
+.separator {
+    height: 1px;
+    background: #e2e8f0;
+    margin: 1.5rem 0;
+}
+
+/* Contact Grid */
+.contact-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-item .icon {
+    width: 1rem;
+    height: 1rem;
+    color: #3b82f6;
+}
+
+.contact-item span {
+    font-size: 0.875rem;
+    color: #64748b;
+}
+
+/* Main Grid */
+.main-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+}
+
+/* Experience Items */
+.experience-item {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    border-left: 2px solid #e2e8f0;
+}
+
+.experience-item:last-child {
+    margin-bottom: 0;
+}
+
+.date-line {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.date-line .icon {
+    width: 1rem;
+    height: 1rem;
+    color: #64748b;
+}
+
+.date-line span {
+    font-size: 0.875rem;
+    color: #64748b;
+}
+
+.experience-item h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+.company {
+    color: #3b82f6;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.experience-item ul {
+    list-style: none;
+    color: #64748b;
+    font-size: 0.875rem;
+}
+
+.experience-item li {
+    margin-bottom: 0.25rem;
+}
+
+/* Education */
+.education-item {
+    padding-left: 1rem;
+    border-left: 2px solid #e2e8f0;
+    margin-bottom: 15px;
+}
+
+.education-item h4 {
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    font-size: 0.875rem;
+    color: #64748b;
+    margin-top: 0.5rem;
+}
+
+/* Skills Section */
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.skill-category h4 {
+    font-weight: 500;
+    color: #1e293b;
+    margin-bottom: 0.75rem;
+}
+
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.badge {
+    background: #f1f5f9;
+    color: #475569;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Certifications */
+.certification-item {
+    margin-bottom: 0.75rem;
+}
+
+.certification-item:last-child {
+    margin-bottom: 0;
+}
+
+.certification-item h4 {
+    font-weight: 500;
+    color: #1e293b;
+    margin-bottom: 0.25rem;
+}
+
+.cert-date {
+    font-size: 0.875rem;
+    color: #64748b;
+}
+
+/* Languages */
+.language-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.language-item:last-child {
+    margin-bottom: 0;
+}
+
+.language {
+    color: #1e293b;
+}
+
+.level {
+    font-size: 0.875rem;
+    color: #64748b;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: white !important;
+        font-size: 12px;
+        line-height: 1.4;
+        padding: 0;
+    }
+
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card {
+        box-shadow: none !important;
+        border: none !important;
+        margin-bottom: 1rem !important;
+        page-break-inside: avoid;
+    }
+
+    .main-grid {
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    .experience-item {
+        margin-bottom: 1rem;
+        page-break-inside: avoid;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-photo {       
+        padding-top: unset;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-info h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 1rem 0.5rem;
+    }
+
+    .card-content,
+    .header-card .card-content {
+        padding: 1.5rem;
+    }
+
+    .profile-info h1 {
+        font-size: 1.75rem;
+    }
+}
